@@ -9,4 +9,4 @@ Heapsort algorithm implementation in Golang.
  
 # Sample output
 
-![image](https://user-images.githubusercontent.com/75375838/181913873-3521f6f5-aa2e-4871-a2b0-a4d8f471c529.png)
+![image](https://user-images.githubusercontent.com/75375838/181913917-1ef4c389-0605-462e-b983-4d6a537c92ea.png)
