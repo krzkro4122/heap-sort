@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	arr := []int{8, 7, 6, 5, 4, 3, 2, 1}
-
+	arr := []int{}
+	// Populate the array with 20 ints from range [0, 10)
 	for i := 0; i < 20; i++ {
-		arr = append(arr, rand.Intn(30))
+		arr = append(arr, rand.Intn(10))
 	}
 
 	fmt.Printf("Array at start: %v\n", arr)

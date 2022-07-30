@@ -1,9 +1,9 @@
 package main
 
-// import "fmt"
+import "fmt"
 
 func findLargest(arr []int) (int, int) {
-	
+
 	largest := arr[0]
 	largestIndex := 0
 
@@ -36,9 +36,13 @@ func heapSort(arr []int) []int {
 
 	new_array := arr
 
-	for {
+	for i := 0 ;; i++{
 		new_array = heapify(&new_array)
-		// fmt.Println(arr, new_array)
+		fmt.Printf("Step %2d - Whole array: %v - Unsorted part: %v\n",
+			i,
+			arr,
+			new_array,
+		)
 
 		if len(new_array) <= 1 {
 			break
